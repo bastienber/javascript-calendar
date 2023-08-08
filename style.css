@@ -1,0 +1,127 @@
+body {
+    background-color: #555;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/******************/
+
+/***** HEADER *****/
+
+/******************/
+
+header {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+header button {
+    border-width: 0px;
+    background-color: #555;
+    font-size: 2rem;
+    transition: 0.3s;
+    color: white;
+}
+
+header button:hover {
+    color: black;
+}
+
+h1 {
+    margin: 0 15rem;
+    width: 200px;
+}
+
+/********************/
+
+/***** CALENDAR *****/
+
+/********************/
+
+table {
+    margin: 0 auto;
+    border-spacing: 5px;
+    font-size: 2rem;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin: 2rem;
+    box-shadow: 11px 10px 15px -3px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+td:hover {
+    background-color: #fff;
+}
+
+th {
+    font-size: 1.6rem;
+}
+
+/*Desactivated cells*/
+
+.previous,
+.next,
+.previous:hover,
+.next:hover {
+    background-color: #999;
+    color: #777;
+}
+
+/**********************/
+
+/***** MODAL AREA *****/
+
+/**********************/
+
+#modal {
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    top: 10%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#modal textarea {
+    width: 350px;
+    height: 300px;
+    margin-left: 5px;
+}
+
+#save {
+    position: absolute;
+    left: 10px;
+    top: -30px;
+}
+
+#hide {
+    position: absolute;
+    left: 80px;
+    top: -30px;
+}
+
+.hidden {
+    display: none;
+}
+
+.eventHere {
+    background-color: lightyellow;
+    position: relative;
+}
+
+.eventHere::before {
+    content: "!";
+    color: red;
+    position: absolute;
+    left: 10px;
+    top: 0;
+}
