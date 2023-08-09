@@ -1,18 +1,21 @@
-#CALENDAR : README
+CALENDAR : README
 
-##How To Use
+I-How To Use
 
-###The basics
-- Click on the arrows on top of the window to switch month
-- The default month when you refresh the page is the current month
+The basics
 
-###The events
-- Click on a calendar cell to open a modal
-- Write anything on the text area
-- Then, click on the Save button to save your event in your browser local storage
-- The events are displayed with a red '!' and a light yellow background.
+    - Click on the arrows on top of the window to switch month
+    - The default month when you refresh the page is the current month
 
-##Known issue(s)
+The events
 
-When you switch month, the number of days displayed can be incorrect.# javascript-calendar
-# javascript-calendar
+    - Click on a calendar cell to open a modal
+    - Write anything on the text area
+    - Then, click on the Save button to save your event in your browser local storage
+    - The events are displayed with a red '!' and a light yellow background.
+
+II-Known issue(s)
+
+FIXED - [When you switch month, the number of days displayed can be incorrect.
+Incorrects months are all the 31-days one and february] : Variable lastDayOfMonth was not correct.
+

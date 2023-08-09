@@ -87,26 +87,54 @@ th {
     height: 500px;
     width: 400px;
     top: 10%;
-    background-color: white;
+    background-color: #ddd;
     border-radius: 20px;
+    box-shadow: 11px 10px 15px -3px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    text-align: left;
+    margin-left: 30px;
 }
 
 #modal textarea {
     width: 350px;
-    height: 300px;
+    height: 350px;
+    margin-top: 20px;
     margin-left: 5px;
+    border-radius: 10px;
+    border: solid 2px #555;
+    box-shadow: 11px 10px 15px -3px rgba(0, 0, 0, 0.5);
+}
+
+
+
+#save,
+#hide {
+    position: absolute;
+    left: 340px;
+    border: solid 2px #555;
+    border-radius: 5px;
+
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+    width: 40px;
+}
+
+
+#save:hover,
+#hide:hover {
+    background-color: #555;
+    color: white;
 }
 
 #save {
-    position: absolute;
-    left: 10px;
-    top: -30px;
+    top: 10px;
 }
 
 #hide {
-    position: absolute;
-    left: 80px;
-    top: -30px;
+    top: 40px;
 }
 
 .hidden {
